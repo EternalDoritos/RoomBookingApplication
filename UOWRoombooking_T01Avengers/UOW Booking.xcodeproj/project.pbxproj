@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A735203A272D8BB000F82276 /* ApprovedContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7352039272D8BB000F82276 /* ApprovedContentView.swift */; };
+		A735203C272D935B00F82276 /* MainSysAdmContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A735203B272D935B00F82276 /* MainSysAdmContentView.swift */; };
+		A735203E272D946C00F82276 /* SysAdmnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A735203D272D946C00F82276 /* SysAdmnViewController.swift */; };
+		A7352044272F8B5E00F82276 /* ReqSysAdmnContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7352043272F8B5E00F82276 /* ReqSysAdmnContentView.swift */; };
+		A7352046272F94F400F82276 /* ViewAllSysAdmn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7352045272F94F400F82276 /* ViewAllSysAdmn.swift */; };
+		A7352048272F973500F82276 /* MainStudentContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7352047272F973500F82276 /* MainStudentContentView.swift */; };
+		A735204A272F981200F82276 /* AvailRmStudentContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7352049272F981200F82276 /* AvailRmStudentContentView.swift */; };
+		A7409F0B2734572B00782AF9 /* SysAdmAccContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7409F0A2734572B00782AF9 /* SysAdmAccContentView.swift */; };
+		A74D5D6A2726EA730043CB33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74D5D692726EA730043CB33 /* AppDelegate.swift */; };
+		A74D5D6C2726EA730043CB33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74D5D6B2726EA730043CB33 /* SceneDelegate.swift */; };
+		A74D5D712726EA730043CB33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74D5D6F2726EA730043CB33 /* Main.storyboard */; };
+		A74D5D732726EA730043CB33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74D5D722726EA730043CB33 /* Assets.xcassets */; };
+		A74D5D762726EA730043CB33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74D5D742726EA730043CB33 /* LaunchScreen.storyboard */; };
+		A755DDC3273190C100731666 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A755DDC2273190C100731666 /* LoginViewController.swift */; };
+		A755DDE527344A9E00731666 /* ViewListofRoomsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A755DDE427344A9E00731666 /* ViewListofRoomsContentView.swift */; };
+		A755DDE727344B4F00731666 /* StaffAccPgContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A755DDE627344B4F00731666 /* StaffAccPgContentView.swift */; };
+		A75885A6273460C2005DDB42 /* StudAccContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75885A5273460C2005DDB42 /* StudAccContentView.swift */; };
+		A7DD8B32272D0C100092B0CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DD8B31272D0C100092B0CE /* ContentView.swift */; };
+		A7DD8B34272D14300092B0CE /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DD8B33272D14300092B0CE /* MainContentView.swift */; };
+		A7DD8B36272D27410092B0CE /* PendingContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DD8B35272D27410092B0CE /* PendingContentView.swift */; };
+		A7DD8B38272D2E2A0092B0CE /* RoomList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DD8B37272D2E2A0092B0CE /* RoomList.swift */; };
+		A7DD8B3A272D3DDF0092B0CE /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DD8B39272D3DDF0092B0CE /* RoomView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7352039272D8BB000F82276 /* ApprovedContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovedContentView.swift; sourceTree = "<group>"; };
+		A735203B272D935B00F82276 /* MainSysAdmContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSysAdmContentView.swift; sourceTree = "<group>"; };
+		A735203D272D946C00F82276 /* SysAdmnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SysAdmnViewController.swift; sourceTree = "<group>"; };
+		A7352043272F8B5E00F82276 /* ReqSysAdmnContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReqSysAdmnContentView.swift; sourceTree = "<group>"; };
+		A7352045272F94F400F82276 /* ViewAllSysAdmn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAllSysAdmn.swift; sourceTree = "<group>"; };
+		A7352047272F973500F82276 /* MainStudentContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainStudentContentView.swift; sourceTree = "<group>"; };
+		A7352049272F981200F82276 /* AvailRmStudentContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailRmStudentContentView.swift; sourceTree = "<group>"; };
+		A7409F0A2734572B00782AF9 /* SysAdmAccContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SysAdmAccContentView.swift; sourceTree = "<group>"; };
+		A74D5D662726EA730043CB33 /* UOW Booking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UOW Booking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74D5D692726EA730043CB33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A74D5D6B2726EA730043CB33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A74D5D702726EA730043CB33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A74D5D722726EA730043CB33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A74D5D752726EA730043CB33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A74D5D772726EA730043CB33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A755DDC2273190C100731666 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A755DDE427344A9E00731666 /* ViewListofRoomsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewListofRoomsContentView.swift; sourceTree = "<group>"; };
+		A755DDE627344B4F00731666 /* StaffAccPgContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffAccPgContentView.swift; sourceTree = "<group>"; };
+		A75885A5273460C2005DDB42 /* StudAccContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudAccContentView.swift; sourceTree = "<group>"; };
+		A7DD8B31272D0C100092B0CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A7DD8B33272D14300092B0CE /* MainContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
+		A7DD8B35272D27410092B0CE /* PendingContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingContentView.swift; sourceTree = "<group>"; };
+		A7DD8B37272D2E2A0092B0CE /* RoomList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomList.swift; sourceTree = "<group>"; };
+		A7DD8B39272D3DDF0092B0CE /* RoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A74D5D632726EA730043CB33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A72404F42734DC9E00AC08E8 /* StudentContentView */ = {
+			isa = PBXGroup;
+			children = (
+				A7352047272F973500F82276 /* MainStudentContentView.swift */,
+				A7352049272F981200F82276 /* AvailRmStudentContentView.swift */,
+				A755DDE427344A9E00731666 /* ViewListofRoomsContentView.swift */,
+				A7DD8B39272D3DDF0092B0CE /* RoomView.swift */,
+				A75885A5273460C2005DDB42 /* StudAccContentView.swift */,
+			);
+			path = StudentContentView;
+			sourceTree = "<group>";
+		};
+		A74D5D5D2726EA730043CB33 = {
+			isa = PBXGroup;
+			children = (
+				A74D5D682726EA730043CB33 /* UOW Booking */,
+				A74D5D672726EA730043CB33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A74D5D672726EA730043CB33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A74D5D662726EA730043CB33 /* UOW Booking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A74D5D682726EA730043CB33 /* UOW Booking */ = {
+			isa = PBXGroup;
+			children = (
+				A7DD8B172729C2990092B0CE /* Resources */,
+				A7DD8B162729C28E0092B0CE /* Views */,
+				A7DD8B152729C2800092B0CE /* Controllers */,
+				A7DD8B142729C2710092B0CE /* Models */,
+				A74D5D772726EA730043CB33 /* Info.plist */,
+			);
+			path = "UOW Booking";
+			sourceTree = "<group>";
+		};
+		A75885A7273461E6005DDB42 /* SysAdminContentViews */ = {
+			isa = PBXGroup;
+			children = (
+				A735203B272D935B00F82276 /* MainSysAdmContentView.swift */,
+				A7352043272F8B5E00F82276 /* ReqSysAdmnContentView.swift */,
+				A7352045272F94F400F82276 /* ViewAllSysAdmn.swift */,
+				A7409F0A2734572B00782AF9 /* SysAdmAccContentView.swift */,
+			);
+			path = SysAdminContentViews;
+			sourceTree = "<group>";
+		};
+		A7DD8B142729C2710092B0CE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A7DD8B152729C2800092B0CE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A755DDC2273190C100731666 /* LoginViewController.swift */,
+				A735203D272D946C00F82276 /* SysAdmnViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A7DD8B162729C28E0092B0CE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A7DD8B182729C2C30092B0CE /* Storyboards */,
+				A74D5D722726EA730043CB33 /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A7DD8B172729C2990092B0CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A74D5D692726EA730043CB33 /* AppDelegate.swift */,
+				A74D5D6B2726EA730043CB33 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A7DD8B182729C2C30092B0CE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A74D5D6F2726EA730043CB33 /* Main.storyboard */,
+				A74D5D742726EA730043CB33 /* LaunchScreen.storyboard */,
+				A7DD8B37272D2E2A0092B0CE /* RoomList.swift */,
+				A7EDDF27273451C500FF6D59 /* StaffContentViews */,
+				A75885A7273461E6005DDB42 /* SysAdminContentViews */,
+				A72404F42734DC9E00AC08E8 /* StudentContentView */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A7EDDF27273451C500FF6D59 /* StaffContentViews */ = {
+			isa = PBXGroup;
+			children = (
+				A7DD8B33272D14300092B0CE /* MainContentView.swift */,
+				A7DD8B31272D0C100092B0CE /* ContentView.swift */,
+				A7DD8B35272D27410092B0CE /* PendingContentView.swift */,
+				A7352039272D8BB000F82276 /* ApprovedContentView.swift */,
+				A755DDE627344B4F00731666 /* StaffAccPgContentView.swift */,
+			);
+			path = StaffContentViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A74D5D652726EA730043CB33 /* UOW Booking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A74D5D7A2726EA730043CB33 /* Build configuration list for PBXNativeTarget "UOW Booking" */;
+			buildPhases = (
+				A74D5D622726EA730043CB33 /* Sources */,
+				A74D5D632726EA730043CB33 /* Frameworks */,
+				A74D5D642726EA730043CB33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UOW Booking";
+			productName = "UOW Booking";
+			productReference = A74D5D662726EA730043CB33 /* UOW Booking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A74D5D5E2726EA730043CB33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A74D5D652726EA730043CB33 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = A74D5D612726EA730043CB33 /* Build configuration list for PBXProject "UOW Booking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A74D5D5D2726EA730043CB33;
+			productRefGroup = A74D5D672726EA730043CB33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A74D5D652726EA730043CB33 /* UOW Booking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A74D5D642726EA730043CB33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74D5D762726EA730043CB33 /* LaunchScreen.storyboard in Resources */,
+				A74D5D732726EA730043CB33 /* Assets.xcassets in Resources */,
+				A74D5D712726EA730043CB33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A74D5D622726EA730043CB33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A75885A6273460C2005DDB42 /* StudAccContentView.swift in Sources */,
+				A7352044272F8B5E00F82276 /* ReqSysAdmnContentView.swift in Sources */,
+				A7DD8B3A272D3DDF0092B0CE /* RoomView.swift in Sources */,
+				A735204A272F981200F82276 /* AvailRmStudentContentView.swift in Sources */,
+				A74D5D6A2726EA730043CB33 /* AppDelegate.swift in Sources */,
+				A755DDE727344B4F00731666 /* StaffAccPgContentView.swift in Sources */,
+				A735203C272D935B00F82276 /* MainSysAdmContentView.swift in Sources */,
+				A755DDE527344A9E00731666 /* ViewListofRoomsContentView.swift in Sources */,
+				A7409F0B2734572B00782AF9 /* SysAdmAccContentView.swift in Sources */,
+				A735203A272D8BB000F82276 /* ApprovedContentView.swift in Sources */,
+				A7DD8B38272D2E2A0092B0CE /* RoomList.swift in Sources */,
+				A7352048272F973500F82276 /* MainStudentContentView.swift in Sources */,
+				A7DD8B36272D27410092B0CE /* PendingContentView.swift in Sources */,
+				A7352046272F94F400F82276 /* ViewAllSysAdmn.swift in Sources */,
+				A7DD8B34272D14300092B0CE /* MainContentView.swift in Sources */,
+				A735203E272D946C00F82276 /* SysAdmnViewController.swift in Sources */,
+				A755DDC3273190C100731666 /* LoginViewController.swift in Sources */,
+				A7DD8B32272D0C100092B0CE /* ContentView.swift in Sources */,
+				A74D5D6C2726EA730043CB33 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A74D5D6F2726EA730043CB33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A74D5D702726EA730043CB33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A74D5D742726EA730043CB33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A74D5D752726EA730043CB33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A74D5D782726EA730043CB33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A74D5D792726EA730043CB33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A74D5D7B2726EA730043CB33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATAB5X983Q;
+				INFOPLIST_FILE = "UOW Booking/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elroy.UOW-Booking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A74D5D7C2726EA730043CB33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATAB5X983Q;
+				INFOPLIST_FILE = "UOW Booking/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elroy.UOW-Booking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A74D5D612726EA730043CB33 /* Build configuration list for PBXProject "UOW Booking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74D5D782726EA730043CB33 /* Debug */,
+				A74D5D792726EA730043CB33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A74D5D7A2726EA730043CB33 /* Build configuration list for PBXNativeTarget "UOW Booking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74D5D7B2726EA730043CB33 /* Debug */,
+				A74D5D7C2726EA730043CB33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A74D5D5E2726EA730043CB33 /* Project object */;
+}
